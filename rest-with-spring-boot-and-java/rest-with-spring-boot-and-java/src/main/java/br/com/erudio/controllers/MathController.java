@@ -35,7 +35,7 @@ public class MathController {
     }
     //http://localhost:8080/math/division/3/5
     @RequestMapping("/division/{numberOne}/{numberTwo}")
-    public Double divison(
+    public Double division(
             @PathVariable("numberOne") String numberOne,
             @PathVariable("numberTwo") String numberTwo
     ) throws Exception {
